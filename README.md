@@ -63,8 +63,9 @@ We recommend using the same toolchain for building your MATLAB-based application
      * Running the Makefile creates the static library `libcmsisnn.a` in the ```<CMSIS Root folder>\CMSIS\NN\lib``` folder.
 5. Configure the MATLAB environment to generate code that uses the CMSIS-NN library:
      * Create a folder named `cmsisnn` in an arbitrary location. Ensure the file path does not include any space. For example, we validated the following steps with the file path `C:\cmsisnn`. 
+     * Create two subfolders within `cmsisnn` called `include` and `lib`.
      * Copy the header files located at ```<CMSIS Root folder>\CMSIS\DSP\Include``` and ```<CMSIS Root folder>\CMSIS\NN\Include``` to the location `..\cmsisnn\include` in the new folder you created in the previous step.
-     * Copy the generated static library located at ```<CMSIS Root folder>\CMSIS\NN\Include``` to the location `..\cmsisnn\lib`.
+     * Copy the generated static library located at ```<CMSIS Root folder>\CMSIS\NN\lib``` to the location `..\cmsisnn\lib`.
      * Create a Windows system environment variable named `CMSISNN_PATH` with the value ```<filepath>\cmsisnn```:
           * For Windows 10, right-click the start menu and select System.
           * Click System Info.
