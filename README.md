@@ -45,7 +45,9 @@ We recommend using the same toolchain for building your MATLAB-based application
     
 ## Windows Install Steps
 1. Install the open-source GNU Arm Embedded Toolchain provided by ARM (available at https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-win32.exe).
+     * Add ```C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin``` to the ```PATH``` system variable in the Windows evironment variable editor.
 2. Download and install the `make` tool. We have tested this step with Cygwin (available at https://www.cygwin.com/install.html). Within the Cygwin installer, during package selection, find the `make` package under "Devel". Open the dropdown list and replace the default selection "Skip" with the version number of `make` to install. Finish the installation process.
+     * Add ```C:\cygwin64\bin``` to the ```PATH``` system variable in the Windows evironment variable editor.
 3. Download the source code for CMSIS version 5.7.0 (available at https://github.com/ARM-software/CMSIS_5/archive/refs/tags/5.7.0.zip).
 4. Unzip the source code to a folder, and follow these steps to build and generate the static library: 
      * Open a Windows command prompt.
