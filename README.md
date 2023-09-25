@@ -20,7 +20,7 @@ We recommend using the same toolchain for building your MATLAB-based application
 
 
 ## Linux Install Steps
-1. Install the open-source, AArch32 bare-metal target (arm-eabi) GNU Arm Embedded Toolchain (v8.3.0) provided by ARM (https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a/downloads/8-3-2019-03).
+1. Install the open-source, AArch32 bare-metal target (arm-eabi) GNU Arm Embedded Toolchain (v8.3.0) provided by ARM ([https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a/downloads/8-3-2019-03](https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2019q3/RC1.1/gcc-arm-none-eabi-8-2019-q3-update-linux.tar.bz2?rev=c34d758abe0c476ea2deaf8c6e16a8a2&revision=c34d758a-be0c-476e-a2de-af8c6e16a8a2?product=Downloads,64-bit,,Linux,8-2019-q3-update)).
 2. Download the source code for CMSIS version 5.7.0 (available at https://github.com/ARM-software/CMSIS_5/archive/refs/tags/5.7.0.zip).
 3. Unzip the CMSIS source code to a folder and follow these steps to build and generate the static library:
      * Open a Linux terminal.
