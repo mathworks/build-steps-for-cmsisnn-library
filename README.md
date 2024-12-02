@@ -37,7 +37,7 @@ We recommend using the same toolchain for building your MATLAB-based application
 4. Configure the MATLAB environment to generate code that uses the CMSIS-NN library:
      * At `/usr/local/`, create a folder named `cmsisnn`.
      * Copy the header files located at ```<CMSIS Root folder>/CMSIS/DSP/Include``` and ```<CMSIS Root folder>/CMSIS/NN/Include``` to the location `/usr/local/cmsisnn/include`.
-     * Copy the generated static library located at ```<CMSIS Root folder>/CMSIS/NN/Include``` to the location `/usr/local/cmsisnn/lib`.
+     * Copy the generated static library located at ```<CMSIS Root folder>/CMSIS/NN/lib``` to the location `/usr/local/cmsisnn/lib`.
      * Open a Linux terminal and use the below command to create a `CMSISNN_PATH` environment variable:
      ```
      export CMSISNN_PATH=/usr/local/cmsisnn
